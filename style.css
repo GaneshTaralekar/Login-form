@@ -1,0 +1,62 @@
+body{
+padding: 0px;
+margin: 0px;
+font-family: sans-serif;
+background: #203549;
+}
+.box h1{
+    color: white;
+font-weight: 500;
+text-transform: uppercase;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3497db;
+    padding: 14px 10px;
+    width: 200px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s; 
+/* this is for animation in logi for */
+
+
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+border-color: #2ecc71;
+}
+.box input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+
+}
+.box input[type="button"]:hover{
+    background: #2ecc71;
+}
+
+
+
